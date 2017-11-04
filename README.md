@@ -36,7 +36,7 @@ Install Mongodb from yum repo:
 ```
 sudo sh aws-ec2-mongodb/install.sh \
     -r https://gist.github.com/alexzhangs/3eb4371c5d19b11b2c9feef458ac11b3/raw \
-    -v org-3.2
+    -v org-3.2.0
 ```
 
 In case there's other yum repo enabled, you may want to install Mongodb
@@ -46,6 +46,7 @@ from some repo only, e.g. `mongodb-org-3.2` here, use:
 sudo sh aws-ec2-mongodb/install.sh \
     -r https://gist.github.com/alexzhangs/3eb4371c5d19b11b2c9feef458ac11b3/raw \
     -n mongodb-org-3.2
+    -v org-3.2.0
 ```
 
 Or you can install Mongodb from a RPM file path or URL, this is
